@@ -15,9 +15,10 @@ function Menu() {
                     <h1 className='text-7xl uppercase'>menu</h1>
                 </div>
                 <div className="navbar space-x-3 text-xl mt-3">
+
                     <Link className='text-white no-underline hover:underline' to="/">Home </Link>
-                    <a href="" className='text-white no-underline'>/</a>
-                    <a className='no-underline text-white' href="">menu</a>
+                    <Link href="" className='text-white no-underline'>/</Link>
+                    <Link className='no-underline text-white' href="">menu</Link>
                 </div>
             </div>
 

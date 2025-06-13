@@ -16,8 +16,8 @@ function About() {
                 </div>
                 <div className="navbar space-x-3 text-xl mt-3">
                     <Link className='text-white no-underline hover:underline' to="/">Home </Link>
-                    <a href="" className='text-white no-underline'>/</a>
-                    <a className='no-underline text-white' href="">About</a>
+                    <Link href="" className='text-white no-underline'>/</Link>
+                    <Link className='no-underline text-white' href="">About</Link>
                 </div>
             </div>
 
