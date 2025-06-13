@@ -17,8 +17,8 @@ function Menu() {
                 <div className="navbar space-x-3 text-xl mt-3">
 
                     <Link className='text-white no-underline hover:underline' to="/">Home </Link>
-                    <Link href="" className='text-white no-underline'>/</Link>
-                    <Link className='no-underline text-white' href="">menu</Link>
+                    <Link to="/" className='text-white no-underline'>/</Link>
+                    <Link className='no-underline text-white' to="/menu">menu</Link>
                 </div>
             </div>
 

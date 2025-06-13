@@ -16,8 +16,8 @@ function About() {
                 </div>
                 <div className="navbar space-x-3 text-xl mt-3">
                     <Link className='text-white no-underline hover:underline' to="/">Home </Link>
-                    <Link href="" className='text-white no-underline'>/</Link>
-                    <Link className='no-underline text-white' href="">About</Link>
+                    <Link to="/" className='text-white no-underline'>/</Link>
+                    <Link className='no-underline text-white' to="/menu">About</Link>
                 </div>
             </div>
 
@@ -35,7 +35,7 @@ function About() {
                             <h1 className='mb-3 capitalize text-2xl sm:text-3xl font-bold'>Our Story</h1>
                             <h5 className="mb-3 font-medium text-lg sm:text-xl">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea.</h5>
                             <p className='font-montserrat text-sm sm:text-base'>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod.</p>
-                            <a href="" className="bg-amber-800 py-2 px-4 mt-4 text-white text-lg no-underline hover:bg-amber-700">Learn More</a>
+                            <Link to="#" className="bg-amber-800 py-2 px-4 mt-4 text-white text-lg no-underline hover:bg-amber-700">Learn More</Link>
                         </div>
 
                         {/* Image */}
@@ -65,7 +65,7 @@ function About() {
                             </div>
 
                             <div className="button mt-7">
-                                <a href="" className="bg-orange-500 p-2 text-white no-underline hover:bg-orange-400">Learn More</a>
+                                <Link to="/" className="bg-orange-500 p-2 text-white no-underline hover:bg-orange-400">Learn More</Link>
                             </div>
 
                         </div>
