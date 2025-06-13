@@ -18,9 +18,8 @@ function Services() {
                     <h1 className='text-4xl sm:text-5xl md:text-7xl uppercase'>Services</h1>
                 </div>
                 <div className="navbar space-x-3 text-xl mt-3">
-                    <Link className='text-white no-underline hover:underline' to="/">Home </Link>
-                    <Link to="/" className='text-white no-underline'>/</Link>
-                    <Link className='no-underline text-white' to="/Services">Services</Link>
+                        <Link className='text-white no-underline hover:underline' to="/">Home </Link>
+                        
                 </div>
             </div>
 

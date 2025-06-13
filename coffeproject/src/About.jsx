@@ -35,7 +35,7 @@ function About() {
                             <h1 className='mb-3 capitalize text-2xl sm:text-3xl font-bold'>Our Story</h1>
                             <h5 className="mb-3 font-medium text-lg sm:text-xl">Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum amet sed vero dolor sea.</h5>
                             <p className='font-montserrat text-sm sm:text-base'>Takimata sed vero vero no sit sed, justo clita duo no duo amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet sit amet amet no. Est nonumy sed labore eirmod sit magna. Erat at est justo sit ut. Labor diam sed ipsum et eirmod.</p>
-                            <Link to="#" className="bg-amber-800 py-2 px-4 mt-4 text-white text-lg no-underline hover:bg-amber-700">Learn More</Link>
+                            <Link to="/about" className="bg-amber-800 py-2 px-4 mt-4 text-white text-lg no-underline hover:bg-amber-700">Learn More</Link>
                         </div>
 
                         {/* Image */}
@@ -69,7 +69,6 @@ function About() {
                             </div>
 
                         </div>
-                   
                     </div>
                 </div>
             </div>
