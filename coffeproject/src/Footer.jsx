@@ -40,10 +40,10 @@ function Footer() {
         Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum
       </p>
       <div className="flex flex-wrap gap-2">
-        <a className="btn3 w-[46px] h-[46px] border border-white text-white flex items-center justify-center" href="#"><FaTwitter /></a>
-        <a className="btn3 w-[46px] h-[46px] border border-white text-white flex items-center justify-center" href="#"><TiSocialFacebook /></a>
-        <a className="btn3 w-[46px] h-[46px] border border-white text-white flex items-center justify-center" href="#"><FaLinkedinIn /></a>
-        <a className="btn3 w-[46px] h-[46px] border border-white text-white flex items-center justify-center" href="#"><FaInstagram /></a>
+        <i className="btn3 w-[46px] h-[46px] border border-white text-white flex items-center justify-center" href="#"><FaTwitter /></i>
+        <i className="btn3 w-[46px] h-[46px] border border-white text-white flex items-center justify-center" href="#"><TiSocialFacebook /></i>
+        <i className="btn3 w-[46px] h-[46px] border border-white text-white flex items-center justify-center" href="#"><FaLinkedinIn /></i>
+        <i className="btn3 w-[46px] h-[46px] border border-white text-white flex items-center justify-center" href="#"><FaInstagram /></i>
       </div>
     </div>
 

@@ -1,6 +1,5 @@
     import React from 'react'
     import { FaCheck } from "react-icons/fa";
-    import Slider from './Slider';
     import Navbar from './Navbar';
     import { FaTruck } from "react-icons/fa";
     import { FaCoffee } from "react-icons/fa";
