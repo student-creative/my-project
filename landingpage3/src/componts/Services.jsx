@@ -24,7 +24,7 @@ function Services() {
                       <div className="">
                         <h3 className='font-thin'>Web Design</h3>
                         <p className='font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a className='no-underline text-cyan-300' href="#">Learn More</a></p>
+                        <p><span className='no-underline text-cyan-300' href="#">Learn More</span></p>
                       </div>
                     </div>
       
@@ -37,7 +37,7 @@ function Services() {
                       <div className="">
                         <h3 className='font-thin'>Web Design</h3>
                         <p className='font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a className='no-underline text-cyan-300' href="#">Learn More</a></p>
+                        <p><span className='no-underline text-cyan-300' href="#">Learn More</span></p>
                       </div>
                     </div>
                   </div>
@@ -51,7 +51,7 @@ function Services() {
                       <div className="">
                         <h3 className='font-thin'>Web Design</h3>
                         <p className='font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a className='no-underline text-cyan-300' href="#">Learn More</a></p>
+                        <p><span className='no-underline text-cyan-300' href="#">Learn More</span></p>
                       </div>
                     </div>
                   </div>
@@ -66,7 +66,7 @@ function Services() {
                       <div className="">
                         <h3 className='font-thin'>Web Design</h3>
                         <p className='font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a className='no-underline text-cyan-300' href="#">Learn More</a></p>
+                        <p><span className='no-underline text-cyan-300' href="#">Learn More</span></p>
                       </div>
                     </div>
                   </div>
@@ -81,7 +81,7 @@ function Services() {
                       <div className="">
                         <h3 className='font-thin'>Web Design</h3>
                         <p className='font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a className='no-underline text-cyan-300' href="#">Learn More</a></p>
+                        <p><span className='no-underline text-cyan-300' href="#">Learn More</span></p>
                       </div>
                     </div>
                   </div>
@@ -95,7 +95,7 @@ function Services() {
                       <div className="">
                         <h3 className='font-thin'>Web Design</h3>
                         <p className='font-light'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-                        <p><a className='no-underline text-cyan-300' href="#">Learn More</a></p>
+                        <p><span className='no-underline text-cyan-300' href="#">Learn More</span></p>
                       </div>
                     </div>
                   </div>

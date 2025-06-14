@@ -55,7 +55,7 @@ function Home() {
         <div className='flex justify-center'>
           <div className="absolute top-80 text-center">
             <h1 className='text-white'>We Love To Build <span class="typed-words">Web Apps</span><span class="typed-cursor typed-cursor--blink">|</span></h1>
-            <p className='text-white mb-10'>Free Web Template by <a className='text-cyan-300 no-underline'>Colorlib</a></p>
+            <p className='text-white mb-10'>Free Web Template by <span className='text-cyan-300 no-underline'>Colorlib</span></p>
             <button className='uppercase bg-teal-400 p-3 px-4 rounded-xl'>watch video</button>
           </div>
         </div>

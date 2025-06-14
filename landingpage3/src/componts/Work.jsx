@@ -39,12 +39,12 @@ function Work() {
                     <div className="w-[248px] h-[163px] mb-5">
                       <p className='text-white text-2xl flex items-center leading-tight'> <FaUmbrella /><span className='ml-4'>Strategy</span></p>
                       <p className='text-white opacity-45 mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                      <a href="" className='text-white text-1xl'>Read More</a>
+                      <span  className='text-white text-1xl underline'>Read More</span>
                     </div>
                     <div className="w-[248px] h-[163px] mb-5">
                       <p className='text-white text-2xl flex items-center leading-tight'> <FaUmbrella /><span className='ml-4'>Strategy</span></p>
                       <p className='text-white opacity-45 mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                      <a href="" className='text-white text-1xl'>Read More</a>
+                      <span className='text-white text-1xl'>Read More</span>
                     </div>
                   </div>
         
@@ -52,12 +52,12 @@ function Work() {
                     <div className="w-[248px] h-[163px] mb-5">
                       <p className='text-white text-2xl flex items-center leading-tight'> <FaUmbrella /><span className='ml-4'>Strategy</span></p>
                       <p className='text-white opacity-45 mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                      <a href="" className='text-white text-1xl'>Read More</a>
+                      <span className='text-white text-1xl'>Read More</span>
                     </div>
                     <div className="w-[248px] h-[163px] mb-5">
                       <p className='text-white text-2xl flex items-center leading-tight'> <FaUmbrella /><span className='ml-4'>Strategy</span></p>
                       <p className='text-white opacity-45 mb-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ab nihil quam nesciunt.</p>
-                      <a href="" className='text-white text-1xl'>Read More</a>
+                      <span className='text-white text-1xl'>Read More</span>
                     </div>
                   </div>
                 </div>

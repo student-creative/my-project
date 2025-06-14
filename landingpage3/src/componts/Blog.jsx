@@ -12,29 +12,29 @@ function Blog() {
           <div className="flex">
             <div className="w-[350px] h-[637px] px-3 mb-4">
               <img className='mb-4' src={require('../img/img1.png')} alt="" />
-              <a className='no-underline text-2xl text-teal-500'>Create Beautiful Website In Less Than An Hour</a>
-              <div className="mb-4 text-gray-400">Ham Brook <span className="mx-2">•</span> Jan 18, 2019<span className="mx-2 text-gray-400">•</span> <a href="#" className='no-underline text-teal-500'>News</a></div>
+              <span className='no-underline text-2xl text-teal-500'>Create Beautiful Website In Less Than An Hour</span>
+              <div className="mb-4 text-gray-400">Ham Brook <span className="mx-2">•</span> Jan 18, 2019<span className="mx-2 text-gray-400">•</span> <span className='no-underline text-teal-500'>News</span></div>
               <p className='font-thin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#" className='no-underline text-teal-500'>Continue Reading...</a></p>
+              <p><span  className='no-underline text-teal-500'>Continue Reading...</span></p>
             </div>
 
 
             <div className="w-[350px] h-[637px] px-3 mb-4">
               <img className='mb-4' src={require('../img/img2.png')} alt="" />
-              <a className='no-underline text-2xl text-teal-500'>Create Beautiful Website In Less Than An Hour</a>
-              <div className="mb-4 text-gray-400">Ham Brook <span className="mx-2">•</span> Jan 18, 2019<span className="mx-2 text-gray-400">•</span> <a href="#" className='no-underline text-teal-500'>News</a></div>
+              <span className='no-underline text-2xl text-teal-500'>Create Beautiful Website In Less Than An Hour</span>
+              <div className="mb-4 text-gray-400">Ham Brook <span className="mx-2">•</span> Jan 18, 2019<span className="mx-2 text-gray-400">•</span> <span  className='no-underline text-teal-500'>News</span></div>
               <p className='font-thin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#" className='no-underline text-teal-500'>Continue Reading...</a></p>
+              <p><span  className='no-underline text-teal-500'>Continue Reading...</span></p>
 
             </div>
 
 
             <div className="w-[350px] h-[637px] px-3 mb-4">
               <img className='mb-4' src={require('../img/img3.png')} alt="" />
-              <a className='no-underline text-2xl text-teal-500'>Create Beautiful Website In Less Than An Hour</a>
-              <div className="mb-4 text-gray-400">Ham Brook <span className="mx-2">•</span> Jan 18, 2019<span className="mx-2 text-gray-400">•</span> <a href="#" className='no-underline text-teal-500'>News</a></div>
+              <span className='no-underline text-2xl text-teal-500'>Create Beautiful Website In Less Than An Hour</span>
+              <div className="mb-4 text-gray-400">Ham Brook <span className="mx-2">•</span> Jan 18, 2019<span className="mx-2 text-gray-400">•</span> <span  className='no-underline text-teal-500'>News</span></div>
               <p className='font-thin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-              <p><a href="#" className='no-underline text-teal-500'>Continue Reading...</a></p>
+              <p><span  className='no-underline text-teal-500'>Continue Reading...</span></p>
 
             </div>
           </div>

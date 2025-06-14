@@ -21,7 +21,7 @@ function About() {
                 </div>
                 <h3 className='font-thin text-xl mb-3'>Web &amp; Mobile Specialties</h3>
                 <p className='mb-3 text-[17px] font-thin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                <p><a className='no-underline text-cyan-300' href="#">Learn More</a></p>
+                <p><span className='no-underline text-cyan-300' >Learn More</span></p>
 
               </div>
               <div className="w-[255px] h-[226px] px-3">
@@ -30,7 +30,7 @@ function About() {
                 </div>
                 <h3 className='font-thin text-xl mb-3'>Web &amp; Mobile Specialties</h3>
                 <p className='mb-3 text-[17px] font-thin'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                <p><a className='no-underline text-cyan-300' href="#">Learn More</a></p>
+                <p><span className='no-underline text-cyan-300' >Learn More</span></p>
 
               </div>
 
