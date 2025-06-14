@@ -261,7 +261,7 @@ function Home() {
                         <div className="blog1 w-[380px] h-[721px] px-4">
                             <img src={require("./img/img3.png")} alt="" />
                             <div className=" p-4">
-                                <a className='block text-2xl mb-4' href="">Lorem ipsum dolor sit amet</a>
+                                <span className='block text-2xl mb-4' >Lorem ipsum dolor sit amet</span>
                                 <span className='block opacity-50 mb-4'>July 17, 2019 </span>
                                 <p className='mb-3 text-xl opacity-60'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
                             </div>
@@ -271,7 +271,7 @@ function Home() {
                         <div className="blog1 w-[380px] h-[721px] px-4">
                             <img src={require("./img/img4.png")} alt="" />
                             <div className=" p-4">
-                                <a className='block text-2xl mb-4' href="">Lorem ipsum dolor sit amet</a>
+                                <span className='block text-2xl mb-4' >Lorem ipsum dolor sit amet</span>
                                 <span className='block opacity-50 mb-4'>July 17, 2019 </span>
                                 <p className='mb-3 text-xl opacity-60'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
                             </div>
@@ -281,7 +281,7 @@ function Home() {
                         <div className="blog1 w-[380px] h-[721px] px-4">
                             <img src={require("./img/img5.png")} alt="" />
                             <div className=" p-4">
-                                <a className='block text-2xl mb-4' href="">Lorem ipsum dolor sit amet</a>
+                                <span className='block text-2xl mb-4' >Lorem ipsum dolor sit amet</span>
                                 <span className='block opacity-50 mb-4'>July 17, 2019 </span>
                                 <p className='mb-3 text-xl opacity-60'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores eos soluta, dolore harum molestias consectetur.</p>
                             </div>
@@ -306,12 +306,12 @@ function Home() {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ut,
                         doloremque quo molestiae nesciunt officiis veniam, beatae dignissimos!
                     </p>
-                    <a
+                    {/* <a
                         href="#"
                         className="bg-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-gray-800 transition"
                     >
                         Get In Touch
-                    </a>
+                    </a> */}
                 </div>
             </div>
 

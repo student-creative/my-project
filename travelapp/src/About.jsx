@@ -127,12 +127,12 @@ function About() {
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus ut,
                         doloremque quo molestiae nesciunt officiis veniam, beatae dignissimos!
                     </p>
-                    <a
+                    {/* <a
                         href="#"
                         className="bg-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-gray-800 transition"
                     >
                         Get In Touch
-                    </a>
+                    </a> */}
                 </div>
             </div>
 
