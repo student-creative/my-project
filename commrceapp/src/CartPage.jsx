@@ -1,5 +1,7 @@
+
 import { useLocation, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { FaShoppingCart } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function CartPage() {
@@ -23,8 +25,11 @@ function CartPage() {
   };
 
   return (
-    <div className="container my-5">
-      <h2 className="text-center fw-bold mb-4">🛒 Your Shopping Cart</h2>
+    <div className="container my-5 px-3">
+      <h2 className="text-center fw-bold mb-4">
+        <FaShoppingCart className="me-2" /> Your Shopping Cart
+      </h2>
+
       {cartItems.length === 0 ? (
         <div className="text-center">
           <h4>Your cart is empty!</h4>
@@ -36,15 +41,15 @@ function CartPage() {
         <>
           <div className="row g-4">
             {cartItems.map((item) => (
-              <div className="col-md-6" key={item.id}>
-                <div className="card shadow-sm border-0">
-                  <div className="row g-0">
+              <div className="col-12 col-md-6" key={item.id}>
+                <div className="card shadow-sm border-0 h-100">
+                  <div className="row g-0 d-flex flex-column flex-md-row">
                     <div className="col-md-4">
                       <img
                         src={item.images[0]}
-                        className="img-fluid rounded-start"
+                        className="img-fluid rounded-start w-100 h-100"
                         alt={item.title}
-                        style={{ height: "100%", objectFit: "cover" }}
+                        style={{ objectFit: "cover" }}
                       />
                     </div>
                     <div className="col-md-8">
@@ -67,8 +72,10 @@ function CartPage() {
           </div>
 
           {/* Total Section */}
-          <div className="mt-5 p-4 bg-light rounded shadow text-end">
-            <h4>Total Price: <span className="text-success">${getTotal()}</span></h4>
+          <div className="mt-5 p-4 bg-light rounded shadow text-end text-md-end text-center">
+            <h4>
+              Total Price: <span className="text-success">${getTotal()}</span>
+            </h4>
             <button className="btn btn-success mt-3">Proceed to Checkout</button>
           </div>
         </>

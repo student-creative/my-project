@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+/* index.css ya App.css me ye CSS add kar do */
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); /* Invert black to white */
+}
