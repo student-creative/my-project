@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -10,37 +11,37 @@ export default function Footer() {
 
         <p className="mb-2">
           Contact us:{" "}
-          <a href="mailto:support@rapido.com" className="text-white text-decoration-underline">
+          <Link href="mailto:support@rapido.com" className="text-white text-decoration-underline">
             support@rapido.com
-          </a>{" "}
+          </Link>{" "}
           | Phone: +91 12345 67890
         </p>
 
         <div className="d-flex justify-content-center gap-3 mt-2 flex-wrap">
-          <a
+          <Link
             href="#"
             className="text-white"
             style={{ fontSize: "1.4rem" }}
             title="Facebook"
           >
             <i className="bi bi-facebook"></i>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-white"
             style={{ fontSize: "1.4rem" }}
             title="Twitter"
           >
             <i className="bi bi-twitter"></i>
-          </a>
-          <a
+          </Link>
+          <Link
             href="#"
             className="text-white"
             style={{ fontSize: "1.4rem" }}
             title="Instagram"
           >
             <i className="bi bi-instagram"></i>
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
