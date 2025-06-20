@@ -1,0 +1,149 @@
+/* Container for Blog List */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto; /* horizontal center */
+}
+
+/* Single blog card styling */
+.blog-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Blog image */
+.blog-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Content inside blog card */
+.blog-content {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title link styling */
+.blog-title-link {
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.blog-title-link:hover {
+  color: #0077ff;
+}
+
+/* Title */
+.blog-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/* Meta info */
+.blog-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Excerpt */
+.blog-excerpt {
+  flex-grow: 1;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* Read more link */
+.read-more {
+  align-self: flex-start;
+  font-weight: 600;
+  color: #0077ff;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+/* Single post page container */
+.single-post {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Single post image */
+.single-image {
+  width: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+/* Single post meta */
+.blog-meta {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+/* Full content */
+.blog-full-content {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Back to blog link */
+.back-home {
+  text-decoration: none;
+  color: #0077ff;
+  font-weight: 600;
+}
+
+.back-home:hover {
+  text-decoration: underline;
+}
+/* Blog image as circle */
+.blog-image {
+  width: 150px;          /* fixed size */
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;    /* fully rounded */
+  margin: 20px auto 0;   /* top margin and center horizontally */
+  display: block;
+}
+
+/* Single post image as circle */
+.single-image {
+  width: 200px;          /* fixed size */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;    /* fully rounded */
+  margin-bottom: 25px;
+}
