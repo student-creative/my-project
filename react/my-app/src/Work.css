@@ -1,0 +1,58 @@
+.work{
+
+    margin-top: 150px;
+}
+.Work-test{
+
+    text-align: center;
+}
+.main-img1{
+
+  margin-top: 60px;
+   
+   
+}
+.main-img2{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+.main-img2 img{
+
+    margin: 10px;
+}
+.main-back{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-work{
+
+    width: 1140px;
+    height: 477px;
+    background-color: black;
+    margin-top: 150px;
+   
+}
+.main-row{
+
+    width: 1140px;
+    height: 477px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+.star{
+
+    color: white;
+}
+.img{
+
+    text-align: center;
+}
