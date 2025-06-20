@@ -16,7 +16,7 @@ function App() {
         {/* Navbar */}
         <div className="navbar w-full h-auto p-5 flex justify-around items-center">
           <div className="logo">
-            <h1 className='text-3xl text-[#2D3B36] font-bold'>SKINCARE</h1>
+            <h1 className='text-3xl text-[#2D3B36] font-bold uppercase'>SKINCARE</h1>
           </div>
 
           {/* Menu - Hidden on mobile */}
