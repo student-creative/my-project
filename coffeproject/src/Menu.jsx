@@ -6,6 +6,7 @@ import Price from './Price';
 import Footer from './Footer';
 
 function Menu() {
+  
   return (
     <div>
       <Slider />
@@ -16,7 +17,7 @@ function Menu() {
           <h1 className='text-7xl uppercase'>menu</h1>
         </div>
         <div className="navbar space-x-3 text-xl mt-3">
-          <Link className='text-white no-underline hover:underline' to="/">Home </Link>
+          <Link className='text-white no-underline hover:underline' to="/">Home </Link><span>/</span><span>Menu</span>
          
         </div>
       </div>

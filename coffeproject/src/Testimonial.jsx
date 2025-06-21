@@ -1,16 +1,27 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Slider from './Slider';
 import Navbar from './Navbar';
 import Client from './Client';
 import { Link } from 'react-router-dom';
 import Footer from './Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Testimonial() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <div>
       <Slider />
       <Navbar />
-      <div className="absolute top-1/4 w-full flex flex-col items-center justify-center text-white z-10 px-4">
+
+      {/* Header Section with Animation */}
+      <div
+        className="absolute top-1/4 w-full flex flex-col items-center justify-center text-white z-10 px-4"
+        data-aos="fade-down"
+      >
         <div className="menu-bar">
           <h1 className='text-7xl uppercase'>Testimonial</h1>
         </div>
@@ -21,7 +32,11 @@ function Testimonial() {
         </div>
       </div>
 
-      <Client />
+      {/* Client Section (already animated inside if using AOS inside Client.jsx) */}
+      <div data-aos="fade-up">
+        <Client />
+      </div>
+
       <Footer />
     </div>
   );
