@@ -89,7 +89,7 @@ function App() {
               alt="beauty"
               className="w-[402px] h-[399px] object-cover rounded-lg"
             />
-            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2" data-aos="fade-up" data-aos-delay="200">
+            <div className="absolute bottom-4  transform -translate-x-1/2" data-aos="fade-up" data-aos-delay="200">
               <button className="bg-[#EFF5EF] p-3 px-4 rounded-full capitalize flex items-start gap-3 shadow-md">
                 <img
                   src={require('./img/skincare.jpg')}
@@ -97,7 +97,7 @@ function App() {
                   className="w-12 h-12 rounded-full object-cover"
                 />
                 <div className="flex flex-col text-left leading-tight text-[#2D3B36]">
-                  <span className='text-sm'>While giving you an invigorating cleansing experience.</span>
+                  <span className='text-sm'>While giving you an invigorating<br/> cleansing experience.</span>
                 </div>
               </button>
             </div>
@@ -152,7 +152,7 @@ function App() {
                 alt="beauty"
                 className="w-[360px] h-[400px] rounded-lg ml-2"
               />
-              <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2" data-aos="fade-up" data-aos-delay="300">
+              <div className="absolute bottom-4 left-14  transform -translate-x-1/2" data-aos="fade-up" data-aos-delay="300">
                 <button className="bg-[#EFF5EF] p-3 px-4 rounded-full capitalize flex items-start gap-3 shadow-md">
                   <img
                     src={require('./img/skincare.jpg')}
@@ -160,7 +160,7 @@ function App() {
                     className="w-12 h-12 rounded-full object-cover"
                   />
                   <div className="flex flex-col text-left leading-tight text-[#2D3B36]">
-                    <span className='text-sm'>While giving you an invigorating cleansing experience.</span>
+                    <span className='text-sm'>While giving you an invigorating<br/> cleansing experience.</span>
                   </div>
                 </button>
               </div>
@@ -306,7 +306,7 @@ function App() {
         <div className="w-full md:w-1/2 px-2 relative" data-aos="fade-left">
           <img className="w-full h-auto object-cover" src={require('./img/person.png')} alt="" />
 
-          <div className="absolute bottom-14 left-1/2 transform -translate-x-1/2 md:left-52 md:translate-x-0" data-aos="fade-up" data-aos-delay="400">
+          <div className="absolute bottom-14 left-12 transform -translate-x-1/2 md:left-52 md:translate-x-0" data-aos="fade-up" data-aos-delay="400">
             <button className="bg-[#EFF5EF] p-3 px-4 rounded-full capitalize flex items-start gap-3">
               <span className="w-12 h-12 bg-[#2D3B36] rounded-full"></span>
               <div className="flex flex-col text-left leading-tight">
@@ -561,7 +561,7 @@ function App() {
 
           <div className="block sm:hidden mt-10 relative" data-aos="fade-up">
             <img className='w-full max-w-[400px] mx-auto h-auto object-cover' src={require('./img/product3.jpg')} alt="" />
-            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2" data-aos="fade-up" data-aos-delay="300">
+            <div className="absolute bottom-6 left-16 transform -translate-x-1/2" data-aos="fade-up" data-aos-delay="300">
               <button className="bg-[#EFF5EF] p-3 px-4 rounded-full capitalize flex items-start gap-3">
                 <i className='p-3 rounded-full text-white bg-[#2D3B36]'><FaHeadphones /></i>
                 <div className="flex flex-col text-left leading-tight text-sm">
