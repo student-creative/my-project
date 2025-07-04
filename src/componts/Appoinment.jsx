@@ -17,7 +17,7 @@ function Appoinment() {
   return (
     <div>
       {/* Background */}
-      <div className="background-image">
+      <div className="background-images">
         <div className="relative">
           <img 
             src={require('../img/back.png')} 
