@@ -4,6 +4,7 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+<<<<<<< HEAD
     container: {
       center: true,
       padding: '1rem',
@@ -19,8 +20,17 @@ module.exports = {
       fontFamily: {
         exo: ['Exo', 'sans-serif'],
         roboto: ['Roboto', 'sans-serif'],
+=======
+    extend: {
+        fontFamily: {
+        inter: ['Inter', 'sans-serif'],
+>>>>>>> d42ee993cbaaa870ce86bea216b423ba2366334e
       },
     },
   },
   plugins: [],
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d42ee993cbaaa870ce86bea216b423ba2366334e
