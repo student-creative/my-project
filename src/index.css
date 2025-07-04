@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+
+
+body{
+
+           line-height: 1.6;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    background-color: #F4F9FC;
+   
+
+}
+.swiper-container {
+  padding: 20px; /* स्वाइपर के चारों ओर padding */
+}
+
+.swiper-slide {
+  margin: 0 15px; /* प्रत्येक स्लाइड के बीच मार्जिन */
+}
+.swiper-pagination {
+  
+ 
+
+}
+/* जब swiper vertical हो, तब pagination dots को नीचे center में दिखाने के लिए */
+.swiper-vertical > .swiper-pagination {
+  right: 0 !important;
+  top: auto !important;
+  bottom: 0 !important; /* dots नीचे 10px ऊपर */
+  left: 0 !important;
+  width: 100% !important;  /* dots पूरा width लें */
+ 
+  display: flex !important;
+ 
+  gap: 10px; /* dots के बीच gap */
+  transform: none !important;
+}
+.swiper-slide {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.custom-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #cbd5e1; /* Tailwind gray-300 */
+  opacity: 1;
+  border-radius: 9999px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background-color: #223A66;
+}
+p{
+
+  color: rgb(112, 128, 144);
+}
